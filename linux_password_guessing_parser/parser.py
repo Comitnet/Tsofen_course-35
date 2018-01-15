@@ -12,7 +12,7 @@ TODO:
 
 
 #log_file_name   = "auth.log"
-log_file_name   = "logs2.log"
+log_file_name   = "auth.2.log"
 filter_string   = "Failed password"
 timestamp_regex = "^[a-zA-Z]+\s+\d+\s+[\d\:]+"
 ip_addr_regex   = "\d{1,3}\.\d{1,3}\.\d{1,3}\.\d{1,3}"
