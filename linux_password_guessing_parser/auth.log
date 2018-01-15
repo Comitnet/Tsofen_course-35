@@ -1,0 +1,177 @@
+Jan  3 07:54:40 Kali systemd-logind[559]: New seat seat0.
+Jan  3 07:54:40 Kali systemd-logind[559]: Watching system buttons on /dev/input/event5 (Power Button)
+Jan  3 07:54:40 Kali sshd[593]: Server listening on 0.0.0.0 port 22.
+Jan  3 07:54:40 Kali sshd[593]: Server listening on :: port 22.
+Jan  3 07:54:40 Kali gdm-launch-environment]: pam_unix(gdm-launch-environment:session): session opened for user Debian-gdm by (uid=0)
+Jan  3 07:54:40 Kali systemd-logind[559]: New session c1 of user Debian-gdm.
+Jan  3 07:54:40 Kali systemd: pam_unix(systemd-user:session): session opened for user Debian-gdm by (uid=0)
+Jan  3 07:54:41 Kali sshd[593]: Received SIGHUP; restarting.
+Jan  3 07:54:41 Kali sshd[593]: Server listening on 0.0.0.0 port 22.
+Jan  3 07:54:41 Kali sshd[593]: Server listening on :: port 22.
+Jan  3 07:54:41 Kali sshd[593]: Received SIGHUP; restarting.
+Jan  3 07:54:41 Kali sshd[593]: Server listening on 0.0.0.0 port 22.
+Jan  3 07:54:41 Kali sshd[593]: Server listening on :: port 22.
+Jan  3 07:54:42 Kali polkitd(authority=local): Registered Authentication Agent for unix-session:c1 (system bus name :1.15 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Jan  3 07:54:42 Kali realmd[905]: Loaded settings from: /usr/lib/realmd/realmd-defaults.conf /usr/lib/realmd/realmd-distro.conf
+Jan  3 07:54:42 Kali realmd[905]: holding daemon: startup
+Jan  3 07:54:42 Kali realmd[905]: starting service
+Jan  3 07:54:42 Kali realmd[905]: connected to bus
+Jan  3 07:54:42 Kali realmd[905]: released daemon: startup
+Jan  3 07:54:42 Kali realmd[905]: claimed name on bus: org.freedesktop.realmd
+Jan  3 07:55:01 Kali CRON[923]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  3 07:55:01 Kali CRON[923]: pam_unix(cron:session): session closed for user root
+Jan  3 07:55:02 Kali gdm-password]: pam_unix(gdm-password:session): session opened for user root by (uid=0)
+Jan  3 07:55:03 Kali systemd: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Jan  3 07:55:03 Kali systemd-logind[559]: New session 3 of user root.
+Jan  3 07:55:05 Kali gnome-keyring-daemon[941]: failed to unlock login keyring on startup
+Jan  3 07:55:06 Kali polkitd(authority=local): Registered Authentication Agent for unix-session:3 (system bus name :1.39 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Jan  3 07:55:43 Kali realmd[905]: quitting realmd service after timeout
+Jan  3 07:55:43 Kali realmd[905]: stopping service
+Jan  3 07:56:02 Kali sshd[1363]: Received disconnect from 172.16.12.55 port 34358:11: Bye Bye [preauth]
+Jan  3 07:56:02 Kali sshd[1363]: Disconnected from authenticating user root 172.16.12.55 port 34358 [preauth]
+Jan  3 07:56:02 Kali sshd[1365]: Invalid user admin from 172.16.12.55 port 34360
+Jan  3 07:56:02 Kali sshd[1365]: pam_unix(sshd:auth): check pass; user unknown
+Jan  3 07:56:02 Kali sshd[1365]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=172.16.12.55
+Jan  3 07:56:02 Kali sshd[1366]: Invalid user admin from 172.16.12.55 port 34362
+Jan  3 07:56:02 Kali sshd[1366]: pam_unix(sshd:auth): check pass; user unknown
+Jan  3 07:56:02 Kali sshd[1366]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=172.16.12.55
+Jan  3 07:56:04 Kali sshd[1365]: Failed password for invalid user admin from 172.16.12.55 port 34360 ssh2
+Jan  3 07:56:04 Kali sshd[1365]: pam_unix(sshd:auth): check pass; user unknown
+Jan  3 07:56:04 Kali sshd[1366]: Failed password for invalid user admin from 172.16.12.55 port 34362 ssh2
+Jan  3 07:56:04 Kali sshd[1366]: pam_unix(sshd:auth): check pass; user unknown
+Jan  3 07:56:06 Kali sshd[1365]: Failed password for invalid user admin from 172.16.12.55 port 34360 ssh2
+Jan  3 07:56:06 Kali sshd[1365]: Received disconnect from 172.16.12.55 port 34360:11: Bye Bye [preauth]
+Jan  3 07:56:06 Kali sshd[1365]: Disconnected from invalid user admin 172.16.12.55 port 34360 [preauth]
+Jan  3 07:56:06 Kali sshd[1365]: PAM 1 more authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=172.16.12.55
+Jan  3 07:56:07 Kali sshd[1366]: Failed password for invalid user admin from 172.16.12.55 port 34362 ssh2
+Jan  3 07:56:07 Kali sshd[1366]: Received disconnect from 172.16.12.55 port 34362:11: Bye Bye [preauth]
+Jan  3 07:56:07 Kali sshd[1366]: Disconnected from invalid user admin 172.16.12.55 port 34362 [preauth]
+Jan  3 07:56:07 Kali sshd[1366]: PAM 1 more authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=172.16.12.55
+Jan  3 07:56:07 Kali sshd[1369]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=172.16.12.55  user=root
+Jan  3 07:56:07 Kali sshd[1370]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=172.16.12.55  user=root
+Jan  3 07:56:09 Kali sshd[1369]: Failed password for root from 172.16.12.55 port 34364 ssh2
+Jan  3 07:56:09 Kali sshd[1370]: Failed password for root from 172.16.12.55 port 34366 ssh2
+Jan  3 07:56:09 Kali sshd[1369]: Accepted password for root from 172.16.12.55 port 34364 ssh2
+Jan  3 07:56:09 Kali sshd[1369]: pam_unix(sshd:session): session opened for user root by (uid=0)
+Jan  3 07:56:09 Kali systemd-logind[559]: New session 5 of user root.
+Jan  3 07:56:09 Kali sshd[1369]: Received disconnect from 172.16.12.55 port 34364:11: Bye Bye
+Jan  3 07:56:09 Kali sshd[1369]: Disconnected from user root 172.16.12.55 port 34364
+Jan  3 07:56:09 Kali sshd[1369]: pam_unix(sshd:session): session closed for user root
+Jan  3 07:56:09 Kali systemd-logind[559]: Removed session 5.
+Jan  3 07:56:09 Kali sshd[1375]: Invalid user 555 from 172.16.12.55 port 34368
+Jan  3 07:56:09 Kali sshd[1375]: pam_unix(sshd:auth): check pass; user unknown
+Jan  3 07:56:09 Kali sshd[1375]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=172.16.12.55
+Jan  3 07:56:11 Kali sshd[1370]: Failed password for root from 172.16.12.55 port 34366 ssh2
+Jan  3 07:56:11 Kali sshd[1370]: Received disconnect from 172.16.12.55 port 34366:11: Bye Bye [preauth]
+Jan  3 07:56:11 Kali sshd[1370]: Disconnected from authenticating user root 172.16.12.55 port 34366 [preauth]
+Jan  3 07:56:11 Kali sshd[1370]: PAM 1 more authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=172.16.12.55  user=root
+Jan  3 07:56:11 Kali sshd[1375]: Failed password for invalid user 555 from 172.16.12.55 port 34368 ssh2
+Jan  3 07:56:11 Kali sshd[1375]: pam_unix(sshd:auth): check pass; user unknown
+Jan  3 07:56:11 Kali sshd[1378]: Invalid user 555 from 172.16.12.55 port 34370
+Jan  3 07:56:11 Kali sshd[1378]: pam_unix(sshd:auth): check pass; user unknown
+Jan  3 07:56:11 Kali sshd[1378]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=172.16.12.55
+Jan  3 07:56:13 Kali sshd[1375]: Failed password for invalid user 555 from 172.16.12.55 port 34368 ssh2
+Jan  3 07:56:13 Kali sshd[1375]: pam_unix(sshd:auth): check pass; user unknown
+Jan  3 07:56:14 Kali sshd[1378]: Failed password for invalid user 555 from 172.16.12.55 port 34370 ssh2
+Jan  3 07:56:14 Kali sshd[1378]: Received disconnect from 172.16.12.55 port 34370:11: Bye Bye [preauth]
+Jan  3 07:56:14 Kali sshd[1378]: Disconnected from invalid user 555 172.16.12.55 port 34370 [preauth]
+Jan  3 07:56:14 Kali sshd[1381]: Invalid user user from 172.16.12.55 port 34372
+Jan  3 07:56:14 Kali sshd[1381]: pam_unix(sshd:auth): check pass; user unknown
+Jan  3 07:56:14 Kali sshd[1381]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=172.16.12.55
+Jan  3 07:56:16 Kali sshd[1381]: Failed password for invalid user user from 172.16.12.55 port 34372 ssh2
+Jan  3 07:56:16 Kali sshd[1381]: pam_unix(sshd:auth): check pass; user unknown
+Jan  3 07:56:16 Kali sshd[1375]: Failed password for invalid user 555 from 172.16.12.55 port 34368 ssh2
+Jan  3 07:56:16 Kali sshd[1375]: Received disconnect from 172.16.12.55 port 34368:11: Bye Bye [preauth]
+Jan  3 07:56:16 Kali sshd[1375]: Disconnected from invalid user 555 172.16.12.55 port 34368 [preauth]
+Jan  3 07:56:16 Kali sshd[1375]: PAM 2 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=172.16.12.55
+Jan  3 07:56:16 Kali sshd[1383]: Invalid user user from 172.16.12.55 port 34374
+Jan  3 07:56:16 Kali sshd[1383]: pam_unix(sshd:auth): check pass; user unknown
+Jan  3 07:56:16 Kali sshd[1383]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=172.16.12.55
+Jan  3 07:56:18 Kali sshd[1381]: Failed password for invalid user user from 172.16.12.55 port 34372 ssh2
+Jan  3 07:56:18 Kali sshd[1381]: pam_unix(sshd:auth): check pass; user unknown
+Jan  3 07:56:18 Kali sshd[1383]: Failed password for invalid user user from 172.16.12.55 port 34374 ssh2
+Jan  3 07:56:18 Kali sshd[1383]: Connection closed by invalid user user 172.16.12.55 port 34374 [preauth]
+Jan  3 07:56:21 Kali sshd[1381]: Failed password for invalid user user from 172.16.12.55 port 34372 ssh2
+Jan  3 07:56:21 Kali sshd[1381]: Connection closed by invalid user user 172.16.12.55 port 34372 [preauth]
+Jan  3 07:56:21 Kali sshd[1381]: PAM 2 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=172.16.12.55
+Jan  3 07:57:34 Kali sshd[1394]: Received disconnect from 172.16.12.55 port 34376:11: Bye Bye [preauth]
+Jan  3 07:57:34 Kali sshd[1394]: Disconnected from authenticating user root 172.16.12.55 port 34376 [preauth]
+Jan  3 07:57:35 Kali sshd[1396]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=172.16.12.55  user=root
+Jan  3 07:57:35 Kali sshd[1397]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=172.16.12.55  user=root
+Jan  3 07:57:37 Kali sshd[1396]: Failed password for root from 172.16.12.55 port 34378 ssh2
+Jan  3 07:57:37 Kali sshd[1397]: Failed password for root from 172.16.12.55 port 34380 ssh2
+Jan  3 07:57:37 Kali sshd[1396]: Accepted password for root from 172.16.12.55 port 34378 ssh2
+Jan  3 07:57:37 Kali sshd[1396]: pam_unix(sshd:session): session opened for user root by (uid=0)
+Jan  3 07:57:37 Kali systemd-logind[559]: New session 6 of user root.
+Jan  3 07:57:37 Kali sshd[1396]: pam_unix(sshd:session): session closed for user root
+Jan  3 07:57:37 Kali systemd-logind[559]: Removed session 6.
+Jan  3 07:57:39 Kali sshd[1397]: Failed password for root from 172.16.12.55 port 34380 ssh2
+Jan  3 07:57:39 Kali sshd[1397]: Connection closed by authenticating user root 172.16.12.55 port 34380 [preauth]
+Jan  3 07:57:39 Kali sshd[1397]: PAM 1 more authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=172.16.12.55  user=root
+Jan  3 08:04:40 Kali vsftpd: pam_listfile(vsftpd:auth): Refused user root for service vsftpd
+Jan  3 08:04:40 Kali vsftpd: pam_unix(vsftpd:auth): authentication failure; logname= uid=0 euid=0 tty=ftp ruser=root rhost=::ffff:172.16.12.55  user=root
+Jan  3 08:04:40 Kali vsftpd: pam_listfile(vsftpd:auth): Refused user root for service vsftpd
+Jan  3 08:04:40 Kali vsftpd: pam_unix(vsftpd:auth): authentication failure; logname= uid=0 euid=0 tty=ftp ruser=root rhost=::ffff:172.16.12.55  user=root
+Jan  3 08:04:43 Kali vsftpd: pam_listfile(vsftpd:auth): Refused user root for service vsftpd
+Jan  3 08:04:43 Kali vsftpd: pam_listfile(vsftpd:auth): Refused user root for service vsftpd
+Jan  3 08:04:43 Kali vsftpd: pam_unix(vsftpd:auth): authentication failure; logname= uid=0 euid=0 tty=ftp ruser=root rhost=::ffff:172.16.12.55  user=root
+Jan  3 08:05:01 Kali CRON[1474]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  3 08:05:01 Kali CRON[1474]: pam_unix(cron:session): session closed for user root
+Jan  3 08:09:01 Kali CRON[1524]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  3 08:09:01 Kali CRON[1524]: pam_unix(cron:session): session closed for user root
+Jan  3 08:14:06 Kali useradd[1555]: new group: name=anis, GID=1000
+Jan  3 08:14:06 Kali useradd[1555]: new user: name=anis, UID=1000, GID=1000, home=/home/anis, shell=
+Jan  3 08:14:20 Kali passwd[1560]: pam_unix(passwd:chauthtok): password changed for anis
+Jan  3 08:14:20 Kali passwd[1560]: gkr-pam: couldn't update the login keyring password: no old password was entered
+Jan  3 08:15:01 Kali CRON[1568]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  3 08:15:01 Kali CRON[1568]: pam_unix(cron:session): session closed for user root
+Jan  3 08:15:44 Kali vsftpd: pam_listfile(vsftpd:auth): Refused user root for service vsftpd
+Jan  3 08:17:01 Kali CRON[1593]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  3 08:17:01 Kali CRON[1593]: pam_unix(cron:session): session closed for user root
+Jan  3 08:20:04 Kali vsftpd: pam_listfile(vsftpd:auth): Refused user root for service vsftpd
+Jan  3 08:20:29 Kali vsftpd: pam_listfile(vsftpd:auth): Refused user root for service vsftpd
+Jan  3 08:25:01 Kali CRON[1704]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  3 08:25:01 Kali CRON[1704]: pam_unix(cron:session): session closed for user root
+Jan  3 08:28:10 Kali vsftpd: pam_unix(vsftpd:auth): check pass; user unknown
+Jan  3 08:28:10 Kali vsftpd: pam_unix(vsftpd:auth): authentication failure; logname= uid=0 euid=0 tty=ftp ruser=toor rhost=::ffff:172.16.12.55
+Jan  3 08:28:20 Kali vsftpd: pam_listfile(vsftpd:auth): Refused user root for service vsftpd
+Jan  3 08:28:20 Kali vsftpd: pam_unix(vsftpd:auth): authentication failure; logname= uid=0 euid=0 tty=ftp ruser=root rhost=::ffff:172.16.12.55  user=root
+Jan  3 08:28:39 Kali vsftpd: pam_listfile(vsftpd:auth): Refused user root for service vsftpd
+Jan  3 08:29:00 Kali vsftpd: pam_unix(vsftpd:auth): check pass; user unknown
+Jan  3 08:29:00 Kali vsftpd: pam_unix(vsftpd:auth): authentication failure; logname= uid=0 euid=0 tty=ftp ruser=Admin rhost=::ffff:172.16.12.55
+Jan  3 08:29:15 Kali vsftpd: pam_unix(vsftpd:auth): check pass; user unknown
+Jan  3 08:29:15 Kali vsftpd: pam_unix(vsftpd:auth): authentication failure; logname= uid=0 euid=0 tty=ftp ruser=Admin rhost=::ffff:172.16.12.55
+Jan  3 08:35:01 Kali CRON[1726]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  3 08:35:01 Kali CRON[1726]: pam_unix(cron:session): session closed for user root
+Jan  3 08:39:01 Kali CRON[1731]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  3 08:39:01 Kali CRON[1731]: pam_unix(cron:session): session closed for user root
+Jan  3 08:45:01 Kali CRON[1734]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  3 08:45:01 Kali CRON[1734]: pam_unix(cron:session): session closed for user root
+Jan  3 08:55:01 Kali CRON[1752]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  3 08:55:01 Kali CRON[1752]: pam_unix(cron:session): session closed for user root
+Jan  3 08:56:43 Kali sshd[593]: Received SIGHUP; restarting.
+Jan  3 08:56:43 Kali sshd[593]: Server listening on 0.0.0.0 port 22.
+Jan  3 08:56:43 Kali sshd[593]: Server listening on :: port 22.
+Jan  3 08:56:48 Kali sshd[593]: Received SIGHUP; restarting.
+Jan  3 08:56:48 Kali sshd[593]: Server listening on 0.0.0.0 port 22.
+Jan  3 08:56:48 Kali sshd[593]: Server listening on :: port 22.
+Jan  3 09:05:01 Kali CRON[1993]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  3 09:05:01 Kali CRON[1993]: pam_unix(cron:session): session closed for user root
+Jan  3 09:09:01 Kali CRON[2299]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  3 09:09:01 Kali CRON[2299]: pam_unix(cron:session): session closed for user root
+Jan  3 09:09:10 Kali sshd[593]: Received SIGHUP; restarting.
+Jan  3 09:09:10 Kali sshd[593]: Server listening on 0.0.0.0 port 22.
+Jan  3 09:09:10 Kali sshd[593]: Server listening on :: port 22.
+Jan  3 09:09:11 Kali sshd[593]: Received SIGHUP; restarting.
+Jan  3 09:09:11 Kali sshd[593]: Server listening on 0.0.0.0 port 22.
+Jan  3 09:09:11 Kali sshd[593]: Server listening on :: port 22.
+Jan  3 09:09:11 Kali sshd[593]: Received SIGHUP; restarting.
+Jan  3 09:09:11 Kali sshd[593]: Server listening on 0.0.0.0 port 22.
+Jan  3 09:09:11 Kali sshd[593]: Server listening on :: port 22.
+Jan  3 09:09:42 Kali sshd[593]: Received SIGHUP; restarting.
+Jan  3 09:09:42 Kali sshd[593]: Server listening on 0.0.0.0 port 22.
+Jan  3 09:09:42 Kali sshd[593]: Server listening on :: port 22.
+Jan  3 09:10:12 Kali sshd[593]: Received SIGHUP; restarting.
+Jan  3 09:10:12 Kali sshd[593]: Server listening on 0.0.0.0 port 22.
+Jan  3 09:10:12 Kali sshd[593]: Server listening on :: port 22.
+Jan  3 07:56:18 Kali sshd[1383]: Failed password for invalid user 172. user 168. 2. 1 from 172.16.12.55 port 34374 ssh2

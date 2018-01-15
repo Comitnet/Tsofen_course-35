@@ -2,6 +2,15 @@ from event_line import event_line
 import re
 from datetime import datetime
 
+
+'''
+TODO:
+1) directory mngmt
+2) event types (ftp ssh telnet x username valid/invalid x successful x single ip)
+3) database
+'''
+
+
 #log_file_name   = "auth.log"
 log_file_name   = "logs2.log"
 filter_string   = "Failed password"
