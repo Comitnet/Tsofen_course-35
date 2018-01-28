@@ -1,0 +1,58 @@
+@charset "windows-1255";
+
+body {
+	background-color: #ccccff;
+	padding: 50px;
+}
+
+h1 {
+	text-align: center;
+	font: italic bold 50px Georgia, serif;
+}
+
+h2 {
+	font: bold 20px Georgia, serif;
+	text-align: center;
+}
+
+#myDiv {
+	background-color: #0000
+
+}
+
+form {
+	background-color: #0000;
+	text-align: center;
+	font: bold 15px Georgia, serif;
+}
+
+#myTable {
+	font-family: bold 15px Georgia, serif;
+	border-collapse: collapse;
+	width: 100%;
+}
+
+#myTable td, #myTable th {
+	border: 1px solid black;
+	padding: 8px;
+}
+
+#myTable tr:nth-child(even) {
+	background-color: #f2f2f2;
+}
+
+#myTable tr:nth-child(odd) {
+	background-color: white;
+}
+
+#myTable tr:hover {
+	background-color: #ddd;
+}
+
+#myTable th {
+	padding-top: 12px;
+	padding-bottom: 12px;
+	text-align: left;
+	background-color: #33cccc;
+	color: black;
+}

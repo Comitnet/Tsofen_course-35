@@ -1,0 +1,33 @@
+@charset "windows-1255";
+
+
+
+
+body{text-align: center;
+width: 100%;}
+
+
+.main {
+    margin-left: 160px; /* Same as the width of the sidenav */
+    font-size: 15px; /* Increased text to enable scrolling */
+    padding: 0px 20px;
+   background-image: url(../p.jpg) no-repeat left top;
+}
+
+
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 70%;
+    border: 1px solid #ddd;
+    align:center
+    margin: 0px auto;
+}
+
+th, td {
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even){background-color: #f2f2f2}
