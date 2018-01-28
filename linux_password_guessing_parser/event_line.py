@@ -2,7 +2,8 @@ from enum import Enum
 
 class Attempt_Type(Enum):
     FAILED_LOGIN      = 1
-    ACCEPTED_PASSWORD = 2
+    FAILED_PASSWORD   = 2
+    ACCEPTED_PASSWORD = 3
 
 class Event_Type(Enum):
     FAIL_WRONG_USER   = 1
@@ -11,15 +12,11 @@ class Event_Type(Enum):
 
 class Event_Line:
 
-  def __init__(self, event_time, machine_ip_address, attempt_type, valid_username):
+  def __init__(self, event_time, machine_ip_address, attempt_type):
     self.event_time         = event_time
     self.machine_ip_address = machine_ip_address
-    self.valid_username     = valid_username
-
-    if attempt_type == "Failed password":
-      self.attempt_type = Attempt_Type.FAILED_LOGIN
-    elif attempt_type == "Accepted password":
-      self.attempt_type = Attempt_Type.ACCEPTED_PASSWORD
+    self.attempt_type = attempt_type
+    
 
 
 
