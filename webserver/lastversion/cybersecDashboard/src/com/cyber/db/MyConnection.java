@@ -10,7 +10,7 @@ public class MyConnection {
 	private Connection con;
 	private final String url = "jdbc:mysql://localhost:3306/version2";
 	private final String username = "root";
-	private final String pass = "123123";
+	private final String pass = "admin";
 	
 	public MyConnection() throws ClassNotFoundException, SQLException{
 		
