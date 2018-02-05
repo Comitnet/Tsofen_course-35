@@ -73,9 +73,9 @@ public class EventQuery {
 	
 	public static String getEvents(Connection con) throws SQLException{
 	
-		query = "SELECT events.id, typeevents.Name as eventname,events.TimeStamp as TimeDate,\r\n" + 
-				"concat( host.HostName,' ',host.mac) as HostDetails, TypeEvents.Severity as SecurityLevel,events.summary ,events.FileName,events.advancedDetails \r\n" + 
-				"FROM EVENTS   inner JOIN host on events.HostID = host.id  \r\n" + 
+		query = "SELECT events.id, typeevents.Name as eventname,events.TimeStamp as TimeDate," + 
+				"concat( host.HostName,' ',host.mac) as HostDetails, TypeEvents.Severity as SecurityLevel,events.summary ,events.FileName,events.advancedDetails " + 
+				"FROM EVENTS   inner JOIN host on events.HostID = host.id  " + 
 				"inner JOIN typeevents on typeevents.ID = events.EventId";
 		runQuery(con);
 		return prepareJsonArray();
@@ -84,16 +84,16 @@ public class EventQuery {
 	
 	public static String getnumberEvents(Connection con) throws SQLException{
 		
-		query = "select typeevents.Severity,count(*)\r\n" + 
-				"from events\r\n" + 
-				"inner join typeevents on events.EventId=typeevents.ID\r\n" + 
-				"group by typeevents.Severity \r\n" + 
-				"union all\r\n" + 
-				"select  distinct typeevents.Severity,0\r\n" + 
-				"from typeevents\r\n" + 
-				"where typeevents.Severity not in (select typeevents.Severity\r\n" + 
-				"from events\r\n" + 
-				"inner join typeevents on events.EventId=typeevents.ID\r\n" + 
+		query = "select typeevents.Severity,count(*)" + 
+				"from events" + 
+				"inner join typeevents on events.EventId=typeevents.ID" + 
+				"group by typeevents.Severity " + 
+				"union all" + 
+				"select  distinct typeevents.Severity,0" + 
+				"from typeevents" + 
+				"where typeevents.Severity not in (select typeevents.Severity" + 
+				"from events" + 
+				"inner join typeevents on events.EventId=typeevents.ID" + 
 				"group by typeevents.Severity )";
 
 		runQuery(con);
@@ -105,9 +105,9 @@ public class EventQuery {
 		jObj = new JsonObject();
 		while(rs.next()){
 			switch(rs.getString(1)) {
-			case "low":	jObj.addProperty("L", rs.getString(2));	break;
-			case "meduim":jObj.addProperty("M", rs.getString(2));break;
-			case "hight":jObj.addProperty("H", rs.getString(2));break;
+			case "Low":	jObj.addProperty("L", rs.getString(2).trim());	break;
+			case "Medium":jObj.addProperty("M", rs.getString(2).trim());break;
+			case "High":jObj.addProperty("H", rs.getString(2).trim());break;
 			}
 			jArr.add(jObj);
 		}

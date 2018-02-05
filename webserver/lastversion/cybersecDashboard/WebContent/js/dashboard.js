@@ -39,3 +39,16 @@ function showTopMessage(msg){
 	$(".top-message").slideToggle("slow");
 	setTimeout(function(){ $(".top-message").slideToggle("slow"); }, 4000);
 }
+$('td').each(function() {
+	 var col_val = $(this).text();
+	 console.log(col_val);
+	                      if (col_val == "Low") {
+	                           //console.log(col_val);
+								$(this).css('color','#009900'); //the selected class colors the row green//
+						} else if (col_val == "Medium") {
+	                            console.log(col_val);
+								$(this).css('color','#ffff66'); 
+							}else if (col_val == "High"){
+	                            $(this).css('color','#ff0000')
+	                             console.log(col_val);};     
+	 });

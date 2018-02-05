@@ -1,0 +1,399 @@
+[**] [129:12:1] Consecutive TCP small segments exceeding threshold [**]
+[Classification: Potentially Bad Traffic] [Priority: 2] 
+2/2-13:15:7 192.168.2.101:21 -> 172.16.15.100:53698 
+TCP TTL:127 TOS:0x0 ID:10790 IpLen:20 DgmLen:60 DF
+***AP*** Seq: 0xBF63D65D  Ack: 0xCC80BB11  Win: 0x805  TcpLen: 20
+[**] [129:12:1] Consecutive TCP small segments exceeding threshold [**]
+[Classification: Potentially Bad Traffic] [Priority: 2] 
+2/2-13:15:7 192.168.2.101:21 -> 172.16.15.100:53698 
+TCP TTL:127 TOS:0x0 ID:10790 IpLen:20 DgmLen:60 DF
+***AP*** Seq: 0xBF63D65D  Ack: 0xCC80BB11  Win: 0x805  TcpLen: 20
+[**] [129:12:1] Consecutive TCP small segments exceeding threshold [**]
+[Classification: Potentially Bad Traffic] [Priority: 2] 
+2/2-13:15:7 192.168.2.101:21 -> 172.16.15.100:53698 
+TCP TTL:127 TOS:0x0 ID:10795 IpLen:20 DgmLen:94 DF
+***AP*** Seq: 0xBF63D6D2  Ack: 0xCC80BB2C  Win: 0x804  TcpLen: 20
+[**] [129:12:1] Consecutive TCP small segments exceeding threshold [**]
+[Classification: Potentially Bad Traffic] [Priority: 2] 
+2/2-13:15:7 192.168.2.101:21 -> 172.16.15.100:53698 
+TCP TTL:127 TOS:0x0 ID:10804 IpLen:20 DgmLen:64 DF
+***AP*** Seq: 0xBF63D78A  Ack: 0xCC80BB4F  Win: 0x804  TcpLen: 20
+[**] [1:777777:0] PingOfDeathDetected [**]
+[Priority: 0] 
+2/2-13:15:37 172.16.15.55 -> 172.16.15.100 
+ICMP TTL:64 TOS:0x0 ID:41105 IpLen:20 DgmLen:3028
+Type:8  Code:0  ID:1476   Seq:1  ECHO
+[**] [1:777777:0] PingOfDeathDetected [**]
+[Priority: 0] 
+2/2-13:15:38 172.16.15.55 -> 172.16.15.100 
+ICMP TTL:64 TOS:0x0 ID:41217 IpLen:20 DgmLen:3028
+Type:8  Code:0  ID:1476   Seq:2  ECHO
+[**] [1:777777:0] PingOfDeathDetected [**]
+[Priority: 0] 
+2/2-13:15:39 172.16.15.55 -> 172.16.15.100 
+ICMP TTL:64 TOS:0x0 ID:41466 IpLen:20 DgmLen:3028
+Type:8  Code:0  ID:1476   Seq:3  ECHO
+[**] [129:12:1] Consecutive TCP small segments exceeding threshold [**]
+[Classification: Potentially Bad Traffic] [Priority: 2] 
+2/2-13:15:7 192.168.2.101:21 -> 172.16.15.100:53698 
+TCP TTL:127 TOS:0x0 ID:10790 IpLen:20 DgmLen:60 DF
+***AP*** Seq: 0xBF63D65D  Ack: 0xCC80BB11  Win: 0x805  TcpLen: 20
+[**] [129:12:1] Consecutive TCP small segments exceeding threshold [**]
+[Classification: Potentially Bad Traffic] [Priority: 2] 
+2/2-13:15:7 192.168.2.101:21 -> 172.16.15.100:53698 
+TCP TTL:127 TOS:0x0 ID:10790 IpLen:20 DgmLen:60 DF
+***AP*** Seq: 0xBF63D65D  Ack: 0xCC80BB11  Win: 0x805  TcpLen: 20
+[**] [129:12:1] Consecutive TCP small segments exceeding threshold [**]
+[Classification: Potentially Bad Traffic] [Priority: 2] 
+2/2-13:15:7 192.168.2.101:21 -> 172.16.15.100:53698 
+TCP TTL:127 TOS:0x0 ID:10795 IpLen:20 DgmLen:94 DF
+***AP*** Seq: 0xBF63D6D2  Ack: 0xCC80BB2C  Win: 0x804  TcpLen: 20
+[**] [129:12:1] Consecutive TCP small segments exceeding threshold [**]
+[Classification: Potentially Bad Traffic] [Priority: 2] 
+2/2-13:15:7 192.168.2.101:21 -> 172.16.15.100:53698 
+TCP TTL:127 TOS:0x0 ID:10804 IpLen:20 DgmLen:64 DF
+***AP*** Seq: 0xBF63D78A  Ack: 0xCC80BB4F  Win: 0x804  TcpLen: 20
+[**] [1:777777:0] PingOfDeathDetected [**]
+[Priority: 0] 
+2/2-13:15:37 172.16.15.55 -> 172.16.15.100 
+ICMP TTL:64 TOS:0x0 ID:41105 IpLen:20 DgmLen:3028
+Type:8  Code:0  ID:1476   Seq:1  ECHO
+[**] [1:777777:0] PingOfDeathDetected [**]
+[Priority: 0] 
+2/2-13:15:38 172.16.15.55 -> 172.16.15.100 
+ICMP TTL:64 TOS:0x0 ID:41217 IpLen:20 DgmLen:3028
+Type:8  Code:0  ID:1476   Seq:2  ECHO
+[**] [1:777777:0] PingOfDeathDetected [**]
+[Priority: 0] 
+2/2-13:15:39 172.16.15.55 -> 172.16.15.100 
+ICMP TTL:64 TOS:0x0 ID:41466 IpLen:20 DgmLen:3028
+Type:8  Code:0  ID:1476   Seq:3  ECHO
+[**] [1:777777:0] PingOfDeathDetected [**]
+[Priority: 0] 
+2/2-13:16:15 172.16.15.55 -> 172.16.15.100 
+ICMP TTL:64 TOS:0x0 ID:44641 IpLen:20 DgmLen:5028
+Type:8  Code:0  ID:1482   Seq:1  ECHO
+[**] [1:777777:0] PingOfDeathDetected [**]
+[Priority: 0] 
+2/2-13:16:16 172.16.15.55 -> 172.16.15.100 
+ICMP TTL:64 TOS:0x0 ID:44699 IpLen:20 DgmLen:5028
+Type:8  Code:0  ID:1482   Seq:2  ECHO
+[**] [1:777777:0] PingOfDeathDetected [**]
+[Priority: 0] 
+2/2-13:16:17 172.16.15.55 -> 172.16.15.100 
+ICMP TTL:64 TOS:0x0 ID:44725 IpLen:20 DgmLen:5028
+Type:8  Code:0  ID:1482   Seq:3  ECHO
+[**] [1:777777:0] PingOfDeathDetected [**]
+[Priority: 0] 
+2/2-13:16:18 172.16.15.55 -> 172.16.15.100 
+ICMP TTL:64 TOS:0x0 ID:44768 IpLen:20 DgmLen:5028
+Type:8  Code:0  ID:1482   Seq:4  ECHO
+[**] [1:777777:0] PingOfDeathDetected [**]
+[Priority: 0] 
+2/2-13:16:19 172.16.15.55 -> 172.16.15.100 
+ICMP TTL:64 TOS:0x0 ID:44977 IpLen:20 DgmLen:5028
+Type:8  Code:0  ID:1482   Seq:5  ECHO
+[**] [1:777777:0] PingOfDeathDetected [**]
+[Priority: 0] 
+2/2-13:16:20 172.16.15.55 -> 172.16.15.100 
+ICMP TTL:64 TOS:0x0 ID:45161 IpLen:20 DgmLen:5028
+Type:8  Code:0  ID:1482   Seq:6  ECHO
+[**] [1:777777:0] PingOfDeathDetected [**]
+[Priority: 0] 
+2/2-13:16:21 172.16.15.55 -> 172.16.15.100 
+ICMP TTL:64 TOS:0x0 ID:45376 IpLen:20 DgmLen:5028
+Type:8  Code:0  ID:1482   Seq:7  ECHO
+[**] [129:12:1] Consecutive TCP small segments exceeding threshold [**]
+[Classification: Potentially Bad Traffic] [Priority: 2] 
+2/2-13:17:51 172.16.15.55:34616 -> 172.16.15.100:445 
+TCP TTL:64 TOS:0x0 ID:33899 IpLen:20 DgmLen:95 DF
+***AP*** Seq: 0x2D110E8E  Ack: 0x1DF41D8F  Win: 0xED  TcpLen: 32
+TCP Options (3) => NOP NOP TS: 887194 3869038 
+[**] [129:20:1] TCP session without 3-way handshake [**]
+[Classification: Potentially Bad Traffic] [Priority: 2] 
+2/2-13:18:14 192.168.2.101:21 -> 172.16.15.100:53702 
+TCP TTL:127 TOS:0x0 ID:10847 IpLen:20 DgmLen:52 DF
+***A**S* Seq: 0x4B072B10  Ack: 0x24D641ED  Win: 0xFFFF  TcpLen: 32
+TCP Options (6) => MSS: 1460 NOP WS: 8 NOP NOP SackOK 
+[**] [129:20:1] TCP session without 3-way handshake [**]
+[Classification: Potentially Bad Traffic] [Priority: 2] 
+2/2-13:18:14 192.168.2.101:21 -> 172.16.15.100:53702 
+TCP TTL:127 TOS:0x0 ID:10848 IpLen:20 DgmLen:67 DF
+***AP*** Seq: 0x4B072B11  Ack: 0x24D641ED  Win: 0x805  TcpLen: 20
+[**] [129:20:1] TCP session without 3-way handshake [**]
+[Classification: Potentially Bad Traffic] [Priority: 2] 
+2/2-13:18:14 192.168.2.101:21 -> 172.16.15.100:53702 
+TCP TTL:127 TOS:0x0 ID:10849 IpLen:20 DgmLen:112 DF
+***AP*** Seq: 0x4B072B2C  Ack: 0x24D641FD  Win: 0x805  TcpLen: 20
+[**] [129:20:1] TCP session without 3-way handshake [**]
+[Classification: Potentially Bad Traffic] [Priority: 2] 
+2/2-13:18:14 192.168.2.101:21 -> 172.16.15.100:53702 
+TCP TTL:127 TOS:0x0 ID:10850 IpLen:20 DgmLen:61 DF
+***AP*** Seq: 0x4B072B74  Ack: 0x24D64204  Win: 0x805  TcpLen: 20
+[**] [129:20:1] TCP session without 3-way handshake [**]
+[Classification: Potentially Bad Traffic] [Priority: 2] 
+2/2-13:18:14 192.168.2.101:21 -> 172.16.15.100:53702 
+TCP TTL:127 TOS:0x0 ID:10851 IpLen:20 DgmLen:60 DF
+***AP*** Seq: 0x4B072B89  Ack: 0x24D6420C  Win: 0x805  TcpLen: 20
+[**] [129:20:1] TCP session without 3-way handshake [**]
+[Classification: Potentially Bad Traffic] [Priority: 2] 
+2/2-13:18:14 192.168.2.101:21 -> 172.16.15.100:53702 
+TCP TTL:127 TOS:0x0 ID:10852 IpLen:20 DgmLen:69 DF
+***AP*** Seq: 0x4B072B9D  Ack: 0x24D64213  Win: 0x804  TcpLen: 20
+[**] [129:20:1] TCP session without 3-way handshake [**]
+[Classification: Potentially Bad Traffic] [Priority: 2] 
+2/2-13:18:14 192.168.2.101:21 -> 172.16.15.100:53702 
+TCP TTL:127 TOS:0x0 ID:10853 IpLen:20 DgmLen:56 DF
+***AP*** Seq: 0x4B072BBA  Ack: 0x24D64219  Win: 0x804  TcpLen: 20
+[**] [129:20:1] TCP session without 3-way handshake [**]
+[Classification: Potentially Bad Traffic] [Priority: 2] 
+2/2-13:18:14 192.168.2.101:21 -> 172.16.15.100:53702 
+TCP TTL:127 TOS:0x0 ID:10854 IpLen:20 DgmLen:92 DF
+***AP*** Seq: 0x4B072BCA  Ack: 0x24D6421F  Win: 0x804  TcpLen: 20
+[**] [129:20:1] TCP session without 3-way handshake [**]
+[Classification: Potentially Bad Traffic] [Priority: 2] 
+2/2-13:18:14 192.168.2.101:56712 -> 172.16.15.100:53703 
+TCP TTL:127 TOS:0x0 ID:10855 IpLen:20 DgmLen:52 DF
+***A**S* Seq: 0x58C21B60  Ack: 0x7CF3A283  Win: 0xFFFF  TcpLen: 32
+TCP Options (6) => MSS: 1460 NOP WS: 8 NOP NOP SackOK 
+[**] [129:20:1] TCP session without 3-way handshake [**]
+[Classification: Potentially Bad Traffic] [Priority: 2] 
+2/2-13:18:14 192.168.2.101:21 -> 172.16.15.100:53702 
+TCP TTL:127 TOS:0x0 ID:10856 IpLen:20 DgmLen:94 DF
+***AP*** Seq: 0x4B072BFE  Ack: 0x24D64227  Win: 0x804  TcpLen: 20
+[**] [129:20:1] TCP session without 3-way handshake [**]
+[Classification: Potentially Bad Traffic] [Priority: 2] 
+2/2-13:18:14 192.168.2.101:56712 -> 172.16.15.100:53703 
+TCP TTL:127 TOS:0x0 ID:10857 IpLen:20 DgmLen:270 DF
+***AP*** Seq: 0x58C21B61  Ack: 0x7CF3A283  Win: 0x805  TcpLen: 20
+[**] [129:20:1] TCP session without 3-way handshake [**]
+[Classification: Potentially Bad Traffic] [Priority: 2] 
+2/2-13:18:14 192.168.2.101:56712 -> 172.16.15.100:53703 
+TCP TTL:127 TOS:0x0 ID:10858 IpLen:20 DgmLen:40 DF
+***A***F Seq: 0x58C21C47  Ack: 0x7CF3A283  Win: 0x805  TcpLen: 20
+[**] [129:20:1] TCP session without 3-way handshake [**]
+[Classification: Potentially Bad Traffic] [Priority: 2] 
+2/2-13:18:14 192.168.2.101:21 -> 172.16.15.100:53702 
+TCP TTL:127 TOS:0x0 ID:10859 IpLen:20 DgmLen:64 DF
+***AP*** Seq: 0x4B072C34  Ack: 0x24D64227  Win: 0x804  TcpLen: 20
+[**] [129:20:1] TCP session without 3-way handshake [**]
+[Classification: Potentially Bad Traffic] [Priority: 2] 
+2/2-13:18:14 192.168.2.101:56712 -> 172.16.15.100:53703 
+TCP TTL:127 TOS:0x0 ID:10860 IpLen:20 DgmLen:40 DF
+***A**** Seq: 0x58C21C48  Ack: 0x7CF3A284  Win: 0x805  TcpLen: 20
+[**] [129:20:1] TCP session without 3-way handshake [**]
+[Classification: Potentially Bad Traffic] [Priority: 2] 
+2/2-13:18:14 192.168.2.101:21 -> 172.16.15.100:53702 
+TCP TTL:127 TOS:0x0 ID:10861 IpLen:20 DgmLen:92 DF
+***AP*** Seq: 0x4B072C4C  Ack: 0x24D6422D  Win: 0x804  TcpLen: 20
+[**] [129:20:1] TCP session without 3-way handshake [**]
+[Classification: Potentially Bad Traffic] [Priority: 2] 
+2/2-13:18:14 192.168.2.101:56713 -> 172.16.15.100:53704 
+TCP TTL:127 TOS:0x0 ID:10862 IpLen:20 DgmLen:52 DF
+***A**S* Seq: 0xBBAACB71  Ack: 0x3468E785  Win: 0xFFFF  TcpLen: 32
+TCP Options (6) => MSS: 1460 NOP WS: 8 NOP NOP SackOK 
+[**] [129:20:1] TCP session without 3-way handshake [**]
+[Classification: Potentially Bad Traffic] [Priority: 2] 
+2/2-13:18:14 192.168.2.101:21 -> 172.16.15.100:53702 
+TCP TTL:127 TOS:0x0 ID:10863 IpLen:20 DgmLen:94 DF
+***AP*** Seq: 0x4B072C80  Ack: 0x24D6424A  Win: 0x804  TcpLen: 20
+[**] [129:20:1] TCP session without 3-way handshake [**]
+[Classification: Potentially Bad Traffic] [Priority: 2] 
+2/2-13:18:14 192.168.2.101:56713 -> 172.16.15.100:53704 
+TCP TTL:127 TOS:0x0 ID:10864 IpLen:20 DgmLen:40 DF
+***A***F Seq: 0xBBAACB72  Ack: 0x3468E785  Win: 0x805  TcpLen: 20
+[**] [129:20:1] TCP session without 3-way handshake [**]
+[Classification: Potentially Bad Traffic] [Priority: 2] 
+2/2-13:18:14 192.168.2.101:21 -> 172.16.15.100:53702 
+TCP TTL:127 TOS:0x0 ID:10865 IpLen:20 DgmLen:64 DF
+***AP*** Seq: 0x4B072CB6  Ack: 0x24D6424A  Win: 0x804  TcpLen: 20
+[**] [129:20:1] TCP session without 3-way handshake [**]
+[Classification: Potentially Bad Traffic] [Priority: 2] 
+2/2-13:18:14 192.168.2.101:56713 -> 172.16.15.100:53704 
+TCP TTL:127 TOS:0x0 ID:10866 IpLen:20 DgmLen:40 DF
+***A**** Seq: 0xBBAACB73  Ack: 0x3468E786  Win: 0x805  TcpLen: 20
+[**] [129:20:1] TCP session without 3-way handshake [**]
+[Classification: Potentially Bad Traffic] [Priority: 2] 
+2/2-13:18:14 192.168.2.101:21 -> 172.16.15.100:53702 
+TCP TTL:127 TOS:0x0 ID:10867 IpLen:20 DgmLen:92 DF
+***AP*** Seq: 0x4B072CCE  Ack: 0x24D64250  Win: 0x804  TcpLen: 20
+[**] [129:20:1] TCP session without 3-way handshake [**]
+[Classification: Potentially Bad Traffic] [Priority: 2] 
+2/2-13:18:14 192.168.2.101:56714 -> 172.16.15.100:53705 
+TCP TTL:127 TOS:0x0 ID:10868 IpLen:20 DgmLen:52 DF
+***A**S* Seq: 0x2E435421  Ack: 0xC36B9732  Win: 0xFFFF  TcpLen: 32
+TCP Options (6) => MSS: 1460 NOP WS: 8 NOP NOP SackOK 
+[**] [129:20:1] TCP session without 3-way handshake [**]
+[Classification: Potentially Bad Traffic] [Priority: 2] 
+2/2-13:18:14 192.168.2.101:21 -> 172.16.15.100:53702 
+TCP TTL:127 TOS:0x0 ID:10869 IpLen:20 DgmLen:94 DF
+***AP*** Seq: 0x4B072D02  Ack: 0x24D6426D  Win: 0x804  TcpLen: 20
+[**] [129:20:1] TCP session without 3-way handshake [**]
+[Classification: Potentially Bad Traffic] [Priority: 2] 
+2/2-13:18:14 192.168.2.101:56714 -> 172.16.15.100:53705 
+TCP TTL:127 TOS:0x0 ID:10870 IpLen:20 DgmLen:40 DF
+***A***F Seq: 0x2E435422  Ack: 0xC36B9732  Win: 0x805  TcpLen: 20
+[**] [129:20:1] TCP session without 3-way handshake [**]
+[Classification: Potentially Bad Traffic] [Priority: 2] 
+2/2-13:18:14 192.168.2.101:21 -> 172.16.15.100:53702 
+TCP TTL:127 TOS:0x0 ID:10871 IpLen:20 DgmLen:64 DF
+***AP*** Seq: 0x4B072D38  Ack: 0x24D6426D  Win: 0x804  TcpLen: 20
+[**] [129:20:1] TCP session without 3-way handshake [**]
+[Classification: Potentially Bad Traffic] [Priority: 2] 
+2/2-13:18:14 192.168.2.101:56714 -> 172.16.15.100:53705 
+TCP TTL:127 TOS:0x0 ID:10872 IpLen:20 DgmLen:40 DF
+***A**** Seq: 0x2E435423  Ack: 0xC36B9733  Win: 0x805  TcpLen: 20
+[**] [129:20:1] TCP session without 3-way handshake [**]
+[Classification: Potentially Bad Traffic] [Priority: 2] 
+2/2-13:18:14 192.168.2.101:21 -> 172.16.15.100:53702 
+TCP TTL:127 TOS:0x0 ID:10873 IpLen:20 DgmLen:92 DF
+***AP*** Seq: 0x4B072D50  Ack: 0x24D64273  Win: 0x804  TcpLen: 20
+[**] [129:20:1] TCP session without 3-way handshake [**]
+[Classification: Potentially Bad Traffic] [Priority: 2] 
+2/2-13:18:14 192.168.2.101:56715 -> 172.16.15.100:53706 
+TCP TTL:127 TOS:0x0 ID:10874 IpLen:20 DgmLen:52 DF
+***A**S* Seq: 0x3EF34FD8  Ack: 0x6885495F  Win: 0xFFFF  TcpLen: 32
+TCP Options (6) => MSS: 1460 NOP WS: 8 NOP NOP SackOK 
+[**] [129:20:1] TCP session without 3-way handshake [**]
+[Classification: Potentially Bad Traffic] [Priority: 2] 
+2/2-13:18:14 192.168.2.101:21 -> 172.16.15.100:53702 
+TCP TTL:127 TOS:0x0 ID:10875 IpLen:20 DgmLen:94 DF
+***AP*** Seq: 0x4B072D84  Ack: 0x24D642E5  Win: 0x804  TcpLen: 20
+[**] [129:20:1] TCP session without 3-way handshake [**]
+[Classification: Potentially Bad Traffic] [Priority: 2] 
+2/2-13:18:14 192.168.2.101:56715 -> 172.16.15.100:53706 
+TCP TTL:127 TOS:0x0 ID:10876 IpLen:20 DgmLen:40 DF
+***A**** Seq: 0x3EF34FD9  Ack: 0x68855045  Win: 0x805  TcpLen: 20
+[**] [129:20:1] TCP session without 3-way handshake [**]
+[Classification: Potentially Bad Traffic] [Priority: 2] 
+2/2-13:18:14 192.168.2.101:56715 -> 172.16.15.100:53706 
+TCP TTL:127 TOS:0x0 ID:10877 IpLen:20 DgmLen:40 DF
+***A**** Seq: 0x3EF34FD9  Ack: 0x68855046  Win: 0x805  TcpLen: 20
+[**] [129:20:1] TCP session without 3-way handshake [**]
+[Classification: Potentially Bad Traffic] [Priority: 2] 
+2/2-13:18:14 192.168.2.101:56715 -> 172.16.15.100:53706 
+TCP TTL:127 TOS:0x0 ID:10878 IpLen:20 DgmLen:40 DF
+***A***F Seq: 0x3EF34FD9  Ack: 0x68855046  Win: 0x805  TcpLen: 20
+[**] [129:20:1] TCP session without 3-way handshake [**]
+[Classification: Potentially Bad Traffic] [Priority: 2] 
+2/2-13:18:14 192.168.2.101:21 -> 172.16.15.100:53702 
+TCP TTL:127 TOS:0x0 ID:10879 IpLen:20 DgmLen:64 DF
+***AP*** Seq: 0x4B072DBA  Ack: 0x24D642E5  Win: 0x804  TcpLen: 20
+[**] [129:20:1] TCP session without 3-way handshake [**]
+[Classification: Potentially Bad Traffic] [Priority: 2] 
+2/2-13:18:14 192.168.2.101:21 -> 172.16.15.100:53702 
+TCP TTL:127 TOS:0x0 ID:10880 IpLen:20 DgmLen:92 DF
+***AP*** Seq: 0x4B072DD2  Ack: 0x24D642EB  Win: 0x804  TcpLen: 20
+[**] [129:20:1] TCP session without 3-way handshake [**]
+[Classification: Potentially Bad Traffic] [Priority: 2] 
+2/2-13:18:14 192.168.2.101:56716 -> 172.16.15.100:53707 
+TCP TTL:127 TOS:0x0 ID:10881 IpLen:20 DgmLen:52 DF
+***A**S* Seq: 0xFB8F7B32  Ack: 0x6F961403  Win: 0xFFFF  TcpLen: 32
+TCP Options (6) => MSS: 1460 NOP WS: 8 NOP NOP SackOK 
+[**] [129:20:1] TCP session without 3-way handshake [**]
+[Classification: Potentially Bad Traffic] [Priority: 2] 
+2/2-13:18:14 192.168.2.101:21 -> 172.16.15.100:53702 
+TCP TTL:127 TOS:0x0 ID:10882 IpLen:20 DgmLen:94 DF
+***AP*** Seq: 0x4B072E06  Ack: 0x24D64308  Win: 0x804  TcpLen: 20
+[**] [129:20:1] TCP session without 3-way handshake [**]
+[Classification: Potentially Bad Traffic] [Priority: 2] 
+2/2-13:18:14 192.168.2.101:56716 -> 172.16.15.100:53707 
+TCP TTL:127 TOS:0x0 ID:10883 IpLen:20 DgmLen:165 DF
+***AP*** Seq: 0xFB8F7B33  Ack: 0x6F961403  Win: 0x805  TcpLen: 20
+[**] [129:20:1] TCP session without 3-way handshake [**]
+[Classification: Potentially Bad Traffic] [Priority: 2] 
+2/2-13:18:14 192.168.2.101:56716 -> 172.16.15.100:53707 
+TCP TTL:127 TOS:0x0 ID:10884 IpLen:20 DgmLen:40 DF
+***A***F Seq: 0xFB8F7BB0  Ack: 0x6F961403  Win: 0x805  TcpLen: 20
+[**] [129:20:1] TCP session without 3-way handshake [**]
+[Classification: Potentially Bad Traffic] [Priority: 2] 
+2/2-13:18:14 192.168.2.101:21 -> 172.16.15.100:53702 
+TCP TTL:127 TOS:0x0 ID:10885 IpLen:20 DgmLen:64 DF
+***AP*** Seq: 0x4B072E3C  Ack: 0x24D64308  Win: 0x804  TcpLen: 20
+[**] [129:20:1] TCP session without 3-way handshake [**]
+[Classification: Potentially Bad Traffic] [Priority: 2] 
+2/2-13:18:14 192.168.2.101:56716 -> 172.16.15.100:53707 
+TCP TTL:127 TOS:0x0 ID:10886 IpLen:20 DgmLen:40 DF
+***A**** Seq: 0xFB8F7BB1  Ack: 0x6F961404  Win: 0x805  TcpLen: 20
+[**] [129:20:1] TCP session without 3-way handshake [**]
+[Classification: Potentially Bad Traffic] [Priority: 2] 
+2/2-13:18:14 192.168.2.101:21 -> 172.16.15.100:53702 
+TCP TTL:127 TOS:0x0 ID:10887 IpLen:20 DgmLen:92 DF
+***AP*** Seq: 0x4B072E54  Ack: 0x24D6430E  Win: 0x803  TcpLen: 20
+[**] [129:20:1] TCP session without 3-way handshake [**]
+[Classification: Potentially Bad Traffic] [Priority: 2] 
+2/2-13:18:14 192.168.2.101:56717 -> 172.16.15.100:53708 
+TCP TTL:127 TOS:0x0 ID:10888 IpLen:20 DgmLen:52 DF
+***A**S* Seq: 0x7EB8D3EB  Ack: 0x11A614F9  Win: 0xFFFF  TcpLen: 32
+TCP Options (6) => MSS: 1460 NOP WS: 8 NOP NOP SackOK 
+[**] [129:20:1] TCP session without 3-way handshake [**]
+[Classification: Potentially Bad Traffic] [Priority: 2] 
+2/2-13:18:14 192.168.2.101:21 -> 172.16.15.100:53702 
+TCP TTL:127 TOS:0x0 ID:10889 IpLen:20 DgmLen:94 DF
+***AP*** Seq: 0x4B072E88  Ack: 0x24D6432B  Win: 0x803  TcpLen: 20
+[**] [129:20:1] TCP session without 3-way handshake [**]
+[Classification: Potentially Bad Traffic] [Priority: 2] 
+2/2-13:18:14 192.168.2.101:56717 -> 172.16.15.100:53708 
+TCP TTL:127 TOS:0x0 ID:10890 IpLen:20 DgmLen:165 DF
+***AP*** Seq: 0x7EB8D3EC  Ack: 0x11A614F9  Win: 0x805  TcpLen: 20
+[**] [129:20:1] TCP session without 3-way handshake [**]
+[Classification: Potentially Bad Traffic] [Priority: 2] 
+2/2-13:18:14 192.168.2.101:56717 -> 172.16.15.100:53708 
+TCP TTL:127 TOS:0x0 ID:10891 IpLen:20 DgmLen:40 DF
+***A***F Seq: 0x7EB8D469  Ack: 0x11A614F9  Win: 0x805  TcpLen: 20
+[**] [129:20:1] TCP session without 3-way handshake [**]
+[Classification: Potentially Bad Traffic] [Priority: 2] 
+2/2-13:18:14 192.168.2.101:21 -> 172.16.15.100:53702 
+TCP TTL:127 TOS:0x0 ID:10892 IpLen:20 DgmLen:64 DF
+***AP*** Seq: 0x4B072EBE  Ack: 0x24D6432B  Win: 0x803  TcpLen: 20
+[**] [129:20:1] TCP session without 3-way handshake [**]
+[Classification: Potentially Bad Traffic] [Priority: 2] 
+2/2-13:18:14 192.168.2.101:56717 -> 172.16.15.100:53708 
+TCP TTL:127 TOS:0x0 ID:10893 IpLen:20 DgmLen:40 DF
+***A**** Seq: 0x7EB8D46A  Ack: 0x11A614FA  Win: 0x805  TcpLen: 20
+[**] [129:20:1] TCP session without 3-way handshake [**]
+[Classification: Potentially Bad Traffic] [Priority: 2] 
+2/2-13:18:14 192.168.2.101:21 -> 172.16.15.100:53702 
+TCP TTL:127 TOS:0x0 ID:10894 IpLen:20 DgmLen:92 DF
+***AP*** Seq: 0x4B072ED6  Ack: 0x24D64331  Win: 0x803  TcpLen: 20
+[**] [129:20:1] TCP session without 3-way handshake [**]
+[Classification: Potentially Bad Traffic] [Priority: 2] 
+2/2-13:18:14 192.168.2.101:56718 -> 172.16.15.100:53709 
+TCP TTL:127 TOS:0x0 ID:10895 IpLen:20 DgmLen:52 DF
+***A**S* Seq: 0x65E5BB3  Ack: 0xE12DDFC3  Win: 0xFFFF  TcpLen: 32
+TCP Options (6) => MSS: 1460 NOP WS: 8 NOP NOP SackOK 
+[**] [129:20:1] TCP session without 3-way handshake [**]
+[Classification: Potentially Bad Traffic] [Priority: 2] 
+2/2-13:18:14 192.168.2.101:21 -> 172.16.15.100:53702 
+TCP TTL:127 TOS:0x0 ID:10896 IpLen:20 DgmLen:94 DF
+***AP*** Seq: 0x4B072F0A  Ack: 0x24D6434E  Win: 0x803  TcpLen: 20
+[**] [129:20:1] TCP session without 3-way handshake [**]
+[Classification: Potentially Bad Traffic] [Priority: 2] 
+2/2-13:18:14 192.168.2.101:56718 -> 172.16.15.100:53709 
+TCP TTL:127 TOS:0x0 ID:10897 IpLen:20 DgmLen:165 DF
+***AP*** Seq: 0x65E5BB4  Ack: 0xE12DDFC3  Win: 0x805  TcpLen: 20
+[**] [129:20:1] TCP session without 3-way handshake [**]
+[Classification: Potentially Bad Traffic] [Priority: 2] 
+2/2-13:18:14 192.168.2.101:56718 -> 172.16.15.100:53709 
+TCP TTL:127 TOS:0x0 ID:10898 IpLen:20 DgmLen:40 DF
+***A***F Seq: 0x65E5C31  Ack: 0xE12DDFC3  Win: 0x805  TcpLen: 20
+[**] [129:20:1] TCP session without 3-way handshake [**]
+[Classification: Potentially Bad Traffic] [Priority: 2] 
+2/2-13:18:14 192.168.2.101:21 -> 172.16.15.100:53702 
+TCP TTL:127 TOS:0x0 ID:10899 IpLen:20 DgmLen:64 DF
+***AP*** Seq: 0x4B072F40  Ack: 0x24D6434E  Win: 0x803  TcpLen: 20
+[**] [129:20:1] TCP session without 3-way handshake [**]
+[Classification: Potentially Bad Traffic] [Priority: 2] 
+2/2-13:18:14 192.168.2.101:56718 -> 172.16.15.100:53709 
+TCP TTL:127 TOS:0x0 ID:10900 IpLen:20 DgmLen:40 DF
+***A**** Seq: 0x65E5C32  Ack: 0xE12DDFC4  Win: 0x805  TcpLen: 20
+[**] [129:20:1] TCP session without 3-way handshake [**]
+[Classification: Potentially Bad Traffic] [Priority: 2] 
+2/2-13:18:14 192.168.2.101:21 -> 172.16.15.100:53702 
+TCP TTL:127 TOS:0x0 ID:10901 IpLen:20 DgmLen:40 DF
+***A**** Seq: 0x4B072F58  Ack: 0x24D6434F  Win: 0x803  TcpLen: 20
+[**] [129:20:1] TCP session without 3-way handshake [**]
+[Classification: Potentially Bad Traffic] [Priority: 2] 
+2/2-13:18:14 192.168.2.101:21 -> 172.16.15.100:53702 
+TCP TTL:127 TOS:0x0 ID:10902 IpLen:20 DgmLen:40 DF
+***A***F Seq: 0x4B072F58  Ack: 0x24D6434F  Win: 0x803  TcpLen: 20

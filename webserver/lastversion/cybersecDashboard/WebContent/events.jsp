@@ -9,7 +9,7 @@
 <%@ page import="java.io.*,java.util.*, java.lang.String"%>
 <%@ page import="javax.servlet.*,java.text.*"%>
 <html lang="en">
-<meta http-equiv="refresh" content="180"url=http://localhost:8080/servlets/ServletEvent.java "/>
+<meta http-equiv="refresh" content="60"url=http://localhost:8080/servlets/ServletEvent.java "/>
 <head>
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -19,7 +19,7 @@
 <meta name="description" content="">
 <meta name="author" content="">
 <title>Cyber Project</title>
-<link href="css2.css" rel="stylesheet">
+
 	<!-- Bootstrap core CSS-->
 <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 	<!-- Custom fonts for this template-->
@@ -29,22 +29,8 @@
 <link href="vendor/datatables/dataTables.bootstrap4.css"
 	rel="stylesheet">
 <link href="css/sb-admin.css" rel="stylesheet">
- <script>
-            $(document).ready(function() {
-                var reloadData = 0; // store timer
+<link href="css2.css" rel="stylesheet">
 
-                // load data on page load, which sets timeout to reload again
-                loadData();
-            });
-
-            function loadData() {
-                $('#load_me').load('events.jsp', function() {
-                    if (reloadData != 0)
-                        window.clearTimeout(reloadData);
-                    reloadData = window.setTimeout(loadData, 10000)
-                }).fadeIn("slow"); 
-            }
-        </script>
 </head>
 
 <body>
@@ -58,7 +44,7 @@
 						<div class="card text-white bg-primary o-hidden ">
 							<div class="card-body">
 							
-								<div class="mr-5">
+								<div class="mr-5" style="text-align: center;height:50px;font:bold 30px arial, sans-serif">
 									<span id="counter0"></span> Events
 								</div>
 							</div>
@@ -68,7 +54,7 @@
 					<div class="col-xl-3 col-sm-6 mb-3">
 						<div class="card text-white bg-success o-hidden ">
 							<div class="card-body">
-								<div class="mr-5">
+								<div class="mr-5" style="text-align: center;height:50px;font:bold 30px arial, sans-serif">
 									<span id="counter1"></span> Low priority
 								</div>
 							</div>
@@ -77,9 +63,9 @@
 					</div>
 					<div class="col-xl-3 col-sm-6 mb-3">
 						<div class="card text-white bg-warning o-hidden ">
-							<div class="card-body">
-								<div class="mr-5">
-									<span id="counter2"></span> Meduim priority
+							<div class="card-body" >
+								<div class="mr-5" style="text-align: center;height:50px;font:bold 30px arial, sans-serif">
+									<span  id="counter2"  ></span> Meduim priority
 								</div>
 							</div>
 
@@ -89,7 +75,7 @@
 						<div class="card text-white bg-danger o-hidden ">
 							<div class="card-body">
 								
-								<div class="mr-5">
+								<div class="mr-5" style="text-align: center;height:50px;font:bold 30px arial, sans-serif">
 									<span id="counter3"></span> High priority
 								</div>
 							</div>
@@ -114,13 +100,13 @@
 								<thead>
 									<tr>
 										<th>ID</th>
-										<th>Event name</th>
-										<th>Time Date</th>
+										<th>Event Name</th>
+										<th>Date & Time</th>
 										<th>Host Details</th>
-										<th>security Level</th>
+										<th>Security Level</th>
 										<th>summary</th>
-										<th>FileName</th>
-										<th>advanceDetails</th>
+										<th>File Name</th>
+										<th>Advance Details</th>
 									</tr>
 								</thead>
 
